@@ -43,5 +43,5 @@ for j in products:
         f.write(j.name + ";" + str(j.count) + "\n")
     i = i + 1
 
-graph4_0(the_best, "best")
+graph4_0(the_best)
 print("best done")
