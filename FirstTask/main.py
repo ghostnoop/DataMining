@@ -1,7 +1,7 @@
 import vk_api
 
-from FirsеTask.UserVk import UserVkClass
-from FirsеTask.contstants import login, password, vk_user_id
+from FirstTask.UserVk import UserVkClass
+from FirstTask.contstants import login, password, vk_user_id
 
 vk_session = vk_api.VkApi(login, password)
 vk_session.auth()
